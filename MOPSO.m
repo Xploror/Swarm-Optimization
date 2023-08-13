@@ -114,16 +114,14 @@ for j = 1:epoch
     end
     
     % position plot
-    %plot(x_pos, y_pos, '.r', x_pos_pareto, y_pos_pareto, 'ob', global_best.pos(1), global_best.pos(2), '*g');
+    plot(x_pos, y_pos, '.r', x_pos_pareto, y_pos_pareto, 'ob', global_best.pos(1), global_best.pos(2), '*g');
     xlim([-10,10])
     ylim([-10,10])
     
     % cost plot 
-    plot(cost1, cost2, '.r', cost1_pareto, cost2_pareto, 'ob');
-%     xlim([-15,0])
-%     ylim([-100,0])
-    xlim([-20,-10])
-    ylim([-4,1])
+    %plot(cost1, cost2, '.r', cost1_pareto, cost2_pareto, 'ob');
+%     xlim([-20,-10])
+%     ylim([-4,1])
     %hold on;
     pause(0.12)
     % Store the best cost value for each iteration
@@ -133,5 +131,3 @@ for j = 1:epoch
     w = w*w_damp;
     
 end
-
-%% Results
