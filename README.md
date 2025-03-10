@@ -2,7 +2,7 @@
 
 ----
 
-This repository deals with numerical simulaiton of multiple swarm agents given the required objectives. The algorithm tries to assign leaders and tries to find bestcost based on which other agents kinematics are decided. Mutations and coefficients of best local position and best global position are used to converge to global minima of hte objective. There are two types of objectives dealt : single objective & multi objective
+This repository deals with numerical simulation of multiple swarm agents given the required objectives. The algorithm tries to assign leaders and tries to find bestcost based on which other agents kinematics are decided. Mutations and coefficients of best local position and best global position are used to converge to global minima of the objective. There are two types of objectives dealt : single objective & multi objective
 
 ## Single Objective Optimization
 
