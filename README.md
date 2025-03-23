@@ -25,3 +25,7 @@ The `sphere_func.m` acts as a simple cost function where the equation $\sum_i^5 
 ## Multi Objective Optimization
 
 `MOPSO.m` is the main file for running multi objective particle swarm optimization simulation where the algorithm decides the leader agent based on certain parameters choosen from the calculated pareto optimal set of agents. 
+
+<div align="center">
+  <video src="https://github.com/user-attachments/assets/8dc4a0ed-e6de-4f61-9721-05b67911b84b" width="100" /> 
+</div>
